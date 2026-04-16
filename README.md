@@ -87,9 +87,11 @@ Passed!  - Failed: 0, Passed: 8, Skipped: 0
 
 ## Next Steps
 
-See [GUIDE.md](GUIDE.md) for:
+Refer [Assignment.md](Assignment.md) for the assessment
+<!--
 - Renaming the project
 - Adding entities with full CRUD
 - Database migrations
 - Writing unit tests
 - Best practices (authorization, audit logging, EF Core patterns)
+-->
