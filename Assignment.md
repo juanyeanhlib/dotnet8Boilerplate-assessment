@@ -10,10 +10,14 @@ Complete all tasks below. Your submission will be reviewed and followed up with 
 
 ## Submission Checklist
 
+First Section (Eta 1 hours)
 - [ ] Project renamed (Task 1)
 - [ ] New entity with full CRUD implemented (Task 2)
 - [ ] Migration created and applied (Task 3)
 - [ ] Unit tests written and passing (Task 4)
+- [ ] Repository pushed to your own GitHub account
+Second Section (Eta 2 hours)
+- [ ] Solutioning based on use case. (Task 5)
 - [ ] Repository pushed to your own GitHub account
 - [ ] Share the repository link upon submission
 
@@ -579,8 +583,21 @@ dotnet test tests/MyApp.Tests/MyApp.Tests.csproj
 All tests must pass before submission.
 
 ---
+## Task 5 — Solutioning (Based on problem statement)
 
-## Task 5 — Technical Discussion (Post-Submission)
+We want to record transactions between a Customer and a Product. Each transaction must capture the following fields: Date of Purchase, Customer Name, Quantity, Total Price, Product Name, and a unique Transaction Reference Number.
+
+Requirements:
+
+- [Validation] A transaction cannot be submitted if the requested quantity exceeds the current available Product quantity.
+- The total price must be auto-calculated based on the Product price and the requested quantity.
+- The Product quantity must be deducted upon successful transaction submission.
+- An audit entry must be created in the audit log upon successful transaction submission.
+
+Please ensure the quantity validation is covered by a unit test.
+
+---
+## Task 6 — Technical Discussion (Post-Submission)
 
 After reviewing your submission, you will be asked to walk through and explain the following topics based on what you have implemented:
 
