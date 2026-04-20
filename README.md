@@ -18,7 +18,7 @@ A .NET 8 Razor Pages boilerplate with ASP.NET Core Identity, Entity Framework Co
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/juanyeanhlib/dotnet8Boilerplate.git
+git clone https://github.com/juanyeanhlib/dotnet8Boilerplate-assessment.git
 cd dotnet8Boilerplate
 ```
 
